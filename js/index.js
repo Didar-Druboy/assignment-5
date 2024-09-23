@@ -21,6 +21,7 @@ document.getElementById('btn-donate-noakhali').addEventListener('click', functio
         return;
     }else if(balance < donatedAmountNoakhali){
         alert('Invalid Donation amount');
+        return;
     }else{
         const innerHTML = `
         <div class="p-4 border-solid border-2 border-slate-100 rounded-xl">
@@ -55,6 +56,7 @@ document.getElementById('btn-donate-feni').addEventListener('click', function(){
         return;
     }else if(balance < donatedAmountFeni){
         alert('Invalid Donation amount');
+        return;
     }else{
         const innerHTML = `
         <div class="p-4 border-solid border-2 border-slate-100 rounded-xl">
@@ -89,6 +91,7 @@ document.getElementById('btn-donate-quota').addEventListener('click', function()
         return;
     }else if(balance < donatedAmountQuota){
         alert('Invalid Donation amount');
+        return;
     }else{
         const innerHTML = `
         <div class="p-4 border-solid border-2 border-slate-100 rounded-xl">
