@@ -1,10 +1,14 @@
 document.getElementById('btn-history').addEventListener('click', function(){
     document.getElementById('donation').classList.add('hidden');
+    document.getElementById('btn-donation').classList.remove('bg-lime-400');
     document.getElementById('history').classList.remove('hidden');
+    document.getElementById('btn-history').classList.add('bg-lime-400');
 });
 document.getElementById('btn-donation').addEventListener('click', function(){
     document.getElementById('history').classList.add('hidden');
+    document.getElementById('btn-history').classList.remove('bg-lime-400');
     document.getElementById('donation').classList.remove('hidden');
+    document.getElementById('btn-donation').classList.add('bg-lime-400');
 });
 // donate for noakhali
 document.getElementById('btn-donate-noakhali').addEventListener('click', function(){
