@@ -40,7 +40,7 @@ document.getElementById('btn-donate-noakhali').addEventListener('click', functio
     const newBalance = (balance - donatedAmountNoakhali).toFixed(2);
     const newAmountNoakhali = (amountNoakhali + donatedAmountNoakhali).toFixed(2);
     document.getElementById('balance').innerText = newBalance;
-    document.getElementById('balance-2').innerText = newBalance;
+    // document.getElementById('balance-2').innerText = newBalance;  //this does not work
     document.getElementById('amount-noakhali').innerText = newAmountNoakhali;
 
 });
@@ -75,7 +75,7 @@ document.getElementById('btn-donate-feni').addEventListener('click', function(){
     const newBalance = (balance - donatedAmountFeni).toFixed(2);
     const newAmountFeni = (amountFeni + donatedAmountFeni).toFixed(2);
     document.getElementById('balance').innerText = newBalance;
-    document.getElementById('balance-2').innerText = newBalance;
+    // document.getElementById('balance-2').innerText = newBalance;  //this does not work
     document.getElementById('amount-feni').innerText = newAmountFeni;
 
 });
@@ -110,7 +110,8 @@ document.getElementById('btn-donate-quota').addEventListener('click', function()
     const newBalance = (balance - donatedAmountQuota).toFixed(2);
     const newAmountQuota = (amountQuota + donatedAmountQuota).toFixed(2);
     document.getElementById('balance').innerText = newBalance;
-    document.getElementById('balance-2').innerText = newBalance;
+    // document.getElementById('balance-2').innerText = newBalance;  //this does not work
     document.getElementById('amount-quota').innerText = newAmountQuota;
 
 });
+
